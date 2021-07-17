@@ -1,0 +1,46 @@
+.flex-div {
+    display: flex;
+     
+      
+}
+.divLogo {
+    border: 2px solid #fafafa;
+    flex-basis: 100%;
+    background-color: #12110e;
+    color: #fafafa ;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#divLogo::first-letter{
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.divLogin {
+    border: 2px solid black;
+    flex-basis: 100%;
+    color:grey;
+    
+}
+#id1{
+    color: #00ff22;
+}
+
+#emailESenha {
+    background-color: #fafafa;
+    color: #050505;
+}
+#emailESenha:hover {
+    background-color: #5a278c;
+    color: #fafafa;
+}
+#hrLogo{
+    width: 30%;
+	text-align: left;
+    font-size: 40px;
+
+}
+#hrLogin{
+    width: 30%;
+	text-align: left;
+    font-size: 40px;
