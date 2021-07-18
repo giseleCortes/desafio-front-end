@@ -1,5 +1,8 @@
 .flex-div {
     display: flex;
+   
+    
+    
      
       
 }
@@ -11,7 +14,7 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-#divLogo::first-letter{
+#h1Logo::first-letter{
     font-weight: bold;
     font-size: 55px;
 }
@@ -24,24 +27,44 @@
 }
 #id1{
     color: #00ff22;
+    padding: 4px 4px;
 }
 
 #emailESenha {
     background-color: #fafafa;
     color: #050505;
+    border-radius:3px;
 }
 #emailESenha:hover {
     background-color: #5a278c;
     color: #fafafa;
+    border-radius:3px;
 }
 #hrLogo{
-    width: 30%;
+    width:20%;
 	text-align: left;
     font-size: 40px;
+    border-radius:3px;
+    
 
 }
 #hrLogin{
     width: 30%;
 	text-align: left;
     font-size: 40px;
+    border-radius:3px;
+}
+.send{
+    margin: 5px 5px;
+    background-color:#cbced4;
+    padding: 2px;
+    border-radius:3px;
+    color:#505154;
+    border:1px solid #505154; ;
+}
+.send:hover{
+    background-color:#5a278c ;
+    color:#fafafa ;
+    cursor: pointer;
+    
 }
